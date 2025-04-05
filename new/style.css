@@ -1,0 +1,408 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second{
+    margin-left: 5%;
+    margin-top: -2.3%;
+}
+
+.third{
+    margin-left: 9%;
+    margin-top: -2.3%;
+}
+
+.four{
+    margin-left: 12%;
+    margin-top: -2.3%;
+}
+
+.wish{
+    margin-left: 60%;
+    margin-top: -2.3%;
+}
+
+.order{
+    margin-left: 70%;
+    margin-top: -2.3%;
+}
+
+.head{
+    font-size: 90%;
+}
+
+.two{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home{
+    margin-left: 25%;
+    margin-top: -2.5%;
+}
+
+.men{
+    margin-left: 30%;
+    margin-top: -2.5%;
+}
+
+.women{
+    margin-left: 35%;
+    margin-top: -2.6%;
+}
+
+.baby{
+    margin-left: 41%;
+    margin-top: -2.6%;
+}
+
+.pages{
+    margin-left: 51%;
+    margin-top: -2.6%;
+}
+
+.blog{
+    margin-left: 56%;
+    margin-top: -2.6%;
+}
+
+.contact{
+    margin-left: 61%;
+    margin-top: -2.6%;
+}
+
+.sale-banner {
+    background-color: #444444; /* Black background */
+    color: #ffffff; /* White text for contrast */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add padding for spacing */
+    font-size: 18px; /* Larger font size for readability */
+    font-weight: bold; /* Bold text */
+}
+
+.image{
+   margin-top: 1%;
+}
+.text{
+    margin-left: 70%;
+    margin-top: -35%;
+}
+
+.style{
+    margin-left: 63%;
+    margin-top: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+}
+
+.low{
+    margin-left: 62%;
+}
+
+.h3{
+    margin-left: 61%;
+    margin-top: -1%;
+}
+
+.three{
+    margin-left: 70%;
+    margin-top: -1%;
+}
+
+.button{
+    margin-left: 10%;
+    margin-top: -1%;
+}
+
+
+.fashion-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px; 
+    background-color: #f8f9fa; 
+}
+
+.fashion-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.fashion-item img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+.fashion-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.fashion-item:hover .overlay {
+    opacity: 1; 
+}
+
+
+.fashion-item .overlay h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.fashion-item .overlay .shop-now-btn {
+    background-color: #007bff;
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fashion-item .overlay .shop-now-btn:hover {
+    background-color: #0056b3; 
+} 
+
+.grid{
+    margin-top: 15%;
+}
+
+.trending-week {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.trending-week h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.trending-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.product-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #ffffff;
+}
+
+.product-item:hover .product-overlay {
+    opacity: 1;
+}
+
+.product-overlay .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-overlay .cart-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-overlay .cart-btn:hover {
+    background-color: #0056b3;
+}
+
+.product-overlay .like-btn {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.product-overlay .like-btn:hover {
+    color: #ff0000;
+}
+
+
+
+
+
+.you-may-like {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.you-may-like h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.like-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog-item-one{
+    margin-left: -65%;
+}
+
+.blog-item-two{
+    margin-left: 5%;
+    margin-top: -35%;
+}
+
+.blog-item-three{
+    margin-left: 70%;
+    margin-top: -37%;
+}
+
+.icon{
+    margin-left: 90%;
+    margin-top:-2%;
+}
+
+.insta{
+    margin-left: 92%;
+    margin-top:-2.3%;
+}
+
+.twitter{
+    margin-left: 94%;
+    margin-top:-2.3%;
+}
+
+.you{
+    margin-left: 96%;
+    margin-top:-2.3%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-container div {
+    width: 23%;
+    margin-bottom: 20px;
+}
+.footer-container h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-container ul li {
+    margin-bottom: 8px;
+}
+.footer-container ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-container ul li a:hover {
+    text-decoration: underline;
+}
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 80%;
+}
+.newsletter button {
+    padding: 10px;
+    background-color: #f1c40f;
+    border: none;
+    color: #fff;
+}
+.newsletter button:hover {
+    background-color: #e67e22;
+}
+.social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+}
+.social-icons a:hover {
+    color: #f1c40f;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.face{
+    margin-left: 17%;
+}
+
+.gram{
+    margin-left: 17%;
+}
+
+.ter{
+    margin-left: 17%;
+}
+
+.tube{
+    margin-left: 17%;
+}
